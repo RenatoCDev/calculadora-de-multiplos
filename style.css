@@ -1,0 +1,43 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    margin: 24px;
+    padding: 5%;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input, button {
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+
+}
+
+button {
+    background-color: rgb(173, 1, 173);
+    font-weight: bolder;
+    color: white
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}

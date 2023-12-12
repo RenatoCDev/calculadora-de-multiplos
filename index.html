@@ -1,0 +1,28 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Calculadora de Múltiplos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Múltiplos</h1>
+    <h2>Siga os passos abaixo para usar a ferramenta.</h2>
+    <p> 1 - Insira um número inteiro no campo "Limite".</p>
+    <p> 2 - Clique em calcular para obter o resultado.</p>
+    <p>3 - Entenda o seu resultado. A calculadora de múltiplos irá encontrar todos os múltiplos de 3 ou 5, menores do que o limite informado e fará a soma desses números</p>
+    <p>O resultado será exibido logo abaixo: </p>
+    <label for="limiteInput">Limite:</label>
+    <input type="number" id="limiteInput" placeholder="Insira o limite">
+    <button onclick="calcularMultiplos()">Calcular</button>
+
+    <div id="resultado">
+        <!-- O resultado será exibido aqui -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
